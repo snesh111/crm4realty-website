@@ -1,0 +1,22 @@
+HTTrack3.49-5 launched on Wed, 04 Mar 2026 13:47:16 at https://saaslyn-merge-html.netlify.app/ +https://saaslyn-merge-html.netlify.app/* +*.css +*.js +*.png +*.jpg +*.jpeg +*.svg +*.woff +*.woff2
+(httrack https://saaslyn-merge-html.netlify.app/ -O ./site-copy +https://saaslyn-merge-html.netlify.app/* +*.css +*.js +*.png +*.jpg +*.jpeg +*.svg +*.woff +*.woff2 -r3 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:03:20	Error: 	"Not Found" (404) at link https://saaslyn-merge-html.netlify.app/collection.html (from https://saaslyn-merge-html.netlify.app/index-7)
+14:03:20	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://saaslyn-merge-html.netlify.app/assets/js/new-js-v4/main.js (from https://saaslyn-merge-html.netlify.app/index-14)
+14:03:20	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://saaslyn-merge-html.netlify.app/assets/images/new-images-v4/hero/hero-mobil-screen.png (from https://saaslyn-merge-html.netlify.app/index-15)
+14:03:20	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://saaslyn-merge-html.netlify.app/assets/images/new-images-v4/shapes/hero-two-ball.png (from https://saaslyn-merge-html.netlify.app/index-15)
+14:03:22	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://saaslyn-merge-html.netlify.app/assets/images/new-images-v4/shapes/hero-two-sheet.png (from https://saaslyn-merge-html.netlify.app/index-15)
+14:03:22	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://saaslyn-merge-html.netlify.app/assets/images/new-images-v4/shapes/text-cuntom-underline.svg (from https://saaslyn-merge-html.netlify.app/index-15)
+14:03:22	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://saaslyn-merge-html.netlify.app/assets/images/new-images-v4/shapes/3d_rocket.png (from https://saaslyn-merge-html.netlify.app/index-15)
+14:03:23	Error: 	"Not Found" (404) at link https://saaslyn-merge-html.netlify.app/tab-content1 (from https://saaslyn-merge-html.netlify.app/index-18)
+14:03:23	Error: 	"Not Found" (404) at link https://saaslyn-merge-html.netlify.app/tab-content2 (from https://saaslyn-merge-html.netlify.app/index-18)
+14:03:23	Error: 	"Not Found" (404) at link https://saaslyn-merge-html.netlify.app/tab-content3 (from https://saaslyn-merge-html.netlify.app/index-18)
+14:03:23	Error: 	"Not Found" (404) at link https://saaslyn-merge-html.netlify.app/book.html (from https://saaslyn-merge-html.netlify.app/index-18)
+
+HTTrack Website Copier/3.49-5 mirror complete in 16 minutes 7 seconds : 940 links scanned, 928 files written (97147886 bytes overall) [77843201 bytes received at 80499 bytes/sec], 43872247 bytes transferred using HTTP compression in 278 files, ratio 54%
+(5 errors, 6 warnings, 0 messages)
